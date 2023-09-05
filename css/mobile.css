@@ -1,0 +1,21 @@
+#navbar {
+    display: flex;
+    top: 0;
+    padding: 1rem;
+    justify-content: space-between;
+    position: relative;
+}
+
+.features {
+    display: grid;
+    width: 500px;
+    grid-template-areas: 
+    'title'
+    'box-1'
+    'box-2'
+    'box-3';
+}
+
+.features .box {
+    margin: auto;
+}
