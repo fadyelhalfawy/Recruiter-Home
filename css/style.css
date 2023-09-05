@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: italic 'Fira Sans', serif;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+
+.container-basic {
+    margin: 50px;
+    position: relative;
+}
+
+#navbar {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    position: relative;
+}
+
+.container .first-img img{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    bottom: -35px;
+    left: 0px;
+}
+
+.container .first-parg {
+    background-color: aqua;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+    top: -35px;
+    right: 130px;
+    text-align: left;
+    padding: 2rem;
+}
+
+.container .first-parg h1 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.container .second-img img{
+    width: 230px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    bottom: -10px;
+    right: 85px;
+}
+
+.container .second-parg {
+    background-color: yellow;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left: 30px;
+    text-align: left;
+    padding: 1.6rem;
+}
+
+.container .second-parg h1 {
+    margin-bottom: 15px;
+}
+
+.container .third-img img{
+    width: 230px;
+    height: 280px;
+    position: absolute;
+    z-index: 1;
+    bottom: -10px;
+    left: 0px;
+}
+
+.container .third-parg {
+    background-color: blueviolet;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    right: 95px;
+    text-align: left;
+    padding: 1.6rem;
+}
+
+.container .third-parg h1 {
+    margin-bottom: 15px;
+}
+
+.container .fourth-img img{
+    width: 230px;
+    height: 280px;
+    position: absolute;
+    z-index: 1;
+    bottom: -5px;
+    right: 60px;
+}
+
+.container .fourth-parg {
+    background-color: lightcoral;
+    width: 250px;
+    height: 210px;
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    left: 0px;
+    text-align: left;
+    padding: 1.6rem;
+}
+
+.container .fourth-parg h1 {
+    margin-bottom: 15px;
+}
+
+.card {
+    display: grid;
+    margin: auto;
+    width: 500px;
+    position: relative;
+    align-items: center;
+    grid-gap: 2rem;
+}
+
+.card-space {
+    margin: 50px;
+}
+
+.card-left {
+    grid-template-areas: 'image parg';
+}
+
+.card-right {
+    grid-template-areas: 'parg image';
+}
+
+.fifth-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    grid-area: image;
+}
+
+.fifth-parg {
+    text-align: left;
+    grid-area: parg;
+}
+
+.fifth-parg h1 {
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+
+.card-right .sixth-img img {
+    width: 200px;
+    height: 250px;
+    grid-area: image;
+}
+
+.card-right .sixth-parg {
+    text-align: left;
+    padding-bottom: 30px;
+    grid-area: parg;
+}
+
+.card-right .sixth-img h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    grid-area: title;
+}
+
+/* 3 cards with title */
+.features {
+    margin: auto;
+    display: grid;
+    width: 784px;
+    grid-template-areas: 
+    'title title title'
+    'box-1 box-2 box-3';
+    grid-gap: 1rem;
+}
+
+.features .title {
+    grid-area: title;
+    text-align: center;
+    font-size: 31px;
+}
+
+.features .box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px;
+    height: 300px;
+}
+
+.features .box .text {
+    margin-top: 15px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.features .box .text .btn {
+    line-height: 4rem;
+}
+
+.features .box .text button {
+    border-width: thin;
+    padding: 6px;
+    cursor: pointer;
+  }
+
+.features .box-1 {
+    grid-area: box-1;
+    background-color: lightcoral;
+}
+
+.features .box-1 .text button {
+    background-color: lightcoral;
+  }
+
+.features .box-2 {
+    grid-area: box-2;
+    background-color: #ffff01;
+}
+
+.features .box-2 .text button {
+    background-color: #ffff01;
+}
+
+.features .box-3 {
+    grid-area: box-3;
+    background-color: aqua;
+}
+
+.features .box-3 .text button {
+    background-color: aqua;
+}
+/* End of 3 cards */
+
+/* Two pictures with text inside */
+#showcase {
+    background: url('../img/ent1.jpg') no-repeat center center/cover;
+    height: 400px;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#showcase .showcase-content h1 {
+    line-height: 1.5em;
+}
+
+
+#showcase .showcase-content p {
+    padding: 5px 0;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content .second-h1{
+    font-size: 35px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 30px;
+}
+.content p {
+    padding: 5px;
+    line-height: 1.2rem;
+}
+/* End of 2 pictures */
