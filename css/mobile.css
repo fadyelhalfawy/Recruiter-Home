@@ -16,10 +16,36 @@
     'box-3';
 }
 
+.features-5 {
+    margin: auto;
+    display: grid;
+    width: 500px;
+    grid-template-areas: 
+    'card-1'
+    'card-2'
+    'card-3'
+    'card-4'
+    'card-5';
+}
+
 .features .box {
     margin: auto;
 }
 
+.features-5 .cards-combine {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.features-5 .cards-combine .text p i {
+    position: relative;
+    top: 8px;
+    border: solid;
+    border-width: thin;
+    padding: 6px;
+    cursor: pointer;
+}
+
 .content {
-    padding-left: 110px;
+    padding-left: 70px;
 }
