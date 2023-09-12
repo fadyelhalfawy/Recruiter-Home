@@ -390,3 +390,47 @@ body {
     font-size: 35px;
 }
 /* End of 2 pictures */
+
+/* Boxes with text and button */
+.content-position {
+    padding: 20px;
+    border: solid;
+    border-width: thick;
+    line-height: 2rem;
+}
+
+.content-position .content-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-position button {
+    padding: 5px;
+    margin-top: 12px;
+    border: solid;
+    border-width: thin;
+}
+
+/* Yellow Box */
+.yellow-box {
+    border-color: yellow;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.content-position .yellow-color {
+    border-color: yellow;
+}
+/* End of Yellow Box */
+
+/* moove color */
+.moove-box {
+    border-color: blueviolet;
+    margin-right: 250px;
+}
+
+.content-position .moove-color {
+    border-color:blueviolet;
+}
+/* End of moove box */
+/* End of boxes with text and button */
