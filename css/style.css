@@ -438,6 +438,7 @@ body {
 /* 3 cards with shadow */
 .card-shadow {
     display: grid;
+    margin: auto;
     grid-template-areas: 
     'box-1 box-2 box-3';
 }
@@ -468,4 +469,81 @@ body {
 .card-shadow .box-shadow .text {
     margin: 7px;
     line-height: 1.2rem;
+}
+/* End of the 3 cards with shadow */
+
+/* Last card */
+.last-card {
+    display: grid;
+    position: relative;
+    align-items: center;
+    grid-gap: 1rem;
+}
+
+.last-card .img-right {
+    width: 250px;
+    height: 380px;
+    background-color: aqua;
+    grid-area: image;
+}
+
+.last-card .img-right img {
+    width: 250px;
+    height: 50%;
+}
+
+.last-card .img-right p {
+    margin: 20px;
+}
+
+.last-card .text-left {
+    grid-area: parg;
+    text-align: left;
+    padding: 40px;
+}
+/* end of the last text beside card */
+
+/* footer */
+footer {
+    background-color: aqua;
+    text-align: center;
+    padding: 60px;
+}
+
+footer .title-footer {
+    position: relative;
+    bottom: 20px;
+}
+
+footer .first-grid {
+    display: grid;
+    grid-template-areas: 'parg-1 parg-2';
+    line-height: 1.2rem;
+}
+
+footer .first-grid .left {
+    grid-area: parg-1;
+    text-align: left;
+    width: 50%;
+}
+
+footer .first-grid .right {
+    grid-area: parg-2;
+    text-align: left;
+}
+
+footer .second-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas: 'images parg';
+}
+
+footer .second-grid .left {
+    grid-area: images;
+    text-align: left;
+}
+
+footer .second-grid .right {
+    grid-area: parg;
+    text-align: right;
 }
