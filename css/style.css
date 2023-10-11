@@ -568,6 +568,7 @@ footer {
     background-color: aqua;
     text-align: center;
     padding: 60px;
+    line-height: 4rem;
 }
 
 footer .title-footer {
