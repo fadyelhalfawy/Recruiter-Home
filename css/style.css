@@ -353,6 +353,62 @@ body {
 }
 /* End of 5 cards */
 
+/* Title moove over card */
+.center-content {
+    margin: 50px;
+    text-align: center;
+}
+.title-moove {
+    font-size: 50px;
+    color: indigo;
+    position: relative;
+    right: 100px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.text-moove-card {
+    background-color: blueviolet;
+    padding: 35px;
+    color: #fff;
+    position: relative;
+    width: 400px;
+    bottom: 40px;
+    left: 420px;
+    z-index: 1;
+}
+
+.text-moove-card p {
+    text-align: left;
+    margin-top: 30px;
+}
+/* End of title moove over card */
+
+/* Title yellow over card */
+.title-black {
+    font-size: 60px;
+    position: relative;
+    left: 20px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.text-yellow-card {
+    background-color: yellow;
+    padding: 35px;
+    position: relative;
+    width: 350px;
+    left: 150px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+.text-yellow-card p {
+    text-align: left;
+    margin-top: 30px;
+}
+/* End of title yellow over card */
+
 /* Text 'About a human' */
 .content {
     padding-left: 170px;
@@ -500,6 +556,10 @@ body {
     grid-area: parg;
     text-align: left;
     padding: 40px;
+}
+
+.last-card .text-left h1 {
+    font-size: 40px;
 }
 /* end of the last text beside card */
 
