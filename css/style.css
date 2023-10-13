@@ -409,9 +409,76 @@ body {
 }
 /* End of title yellow over card */
 
+/* Circle */
+.circle {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-gap: 2rem;
+    align-items: center;
+}
+
+.circle-template {
+    grid-template-areas: 
+    'text number';
+}
+
+.circle .number-circle h1 {
+    font-size: 60px;
+    position: relative;
+    top: 30%;
+    left: 43%;
+}
+
+.circle .text-circle {
+    grid-area: text;
+}
+
+.circle .text-circle p {
+    margin-top: 5px;
+}
+
+/* baby blue circle */
+.circle .blue-circle {
+    grid-area: number;
+    background-color: aqua;
+    color: cadetblue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/* end of baby blue circle */
+
+/* Yellow circle */
+.circle-template-yellow {
+    grid-template-areas: 
+    'number text';
+}
+
+.circle .yellow-circle {
+    grid-area: number;
+    background-color: yellow;
+    color: burlywood;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/* end of yellow circle */
+
+/* red circle */
+.circle .red-circle {
+    grid-area: number;
+    background-color: crimson;
+    color: coral;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/* end of red circle */
+
 /* Text 'About a human' */
 .content {
-    padding-left: 170px;
+    padding-left: 145px;
 }
 
 .content h1 {
