@@ -169,7 +169,7 @@ body {
     font-size: 35px;
 }
 
-.card-right .sixth-img img {
+.sixth-img img {
     width: 200px;
     height: 250px;
     grid-area: image;
@@ -475,6 +475,61 @@ body {
     border-radius: 50%;
 }
 /* end of red circle */
+
+/* Image with text with white background */
+.showimg {
+    margin: 50px 0px;
+    background: url('../img/ent1.jpg') no-repeat center center/cover;
+    height: 250px;
+}
+
+.showimg .text-flex {
+    position: relative;
+    left: 30%;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 400px;
+    height: 70px;
+}
+
+.showimg .text-flex p i {
+    position: relative;
+    top: 8px;
+    left: 5px;
+    border: solid;
+    border-width: thin;
+    padding: 7px;
+    cursor: pointer;
+}
+/* End of Image background with text with white background */
+
+/* Image beside text */
+.sixth-parg button {
+    border: solid;
+    padding: 8px;
+}
+/* End of Image beside text */
+
+/* Red background with text with red back ground */
+.background-red {
+    margin: 50px 0px;
+    background-color: lightcoral;
+    height: 250px;
+}
+
+.background-red .background-text {
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    top: 80px;
+    left: 25%;
+    background-color: darksalmon;
+}
+/* End Red background with text with red back ground */
 
 /* Text 'About a human' */
 .content {
