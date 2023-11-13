@@ -188,7 +188,7 @@ body {
     grid-template-areas: 
     'title title title'
     'box-compensation box-leadership box-talent';
-    grid-gap: 1rem;
+    grid-gap: 2rem;
 }
 
 .features .title {
@@ -202,7 +202,6 @@ body {
 .features .box {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 250px;
     height: 300px;
 }
 

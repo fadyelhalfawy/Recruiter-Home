@@ -1,0 +1,24 @@
+/* Media query for tablets and smaller screens */
+    .container {
+        width: 100%; /* Adjust the width for tablets */
+    }
+
+    .image, .parg {
+        width: 100%; /* Make both responsive */
+        max-width: 100%; /* Remove the maximum width for smaller screens */
+    }
+
+    .parg h2 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+
+    .right-person-img {
+        top: 50px;
+    }
+
+    .right-person-parg {
+        width: 100%; /* Make this element responsive */
+        max-width: 100%; /* Remove the maximum width for smaller screens */
+        left: 0; /*Adjust positioning for smaller screens*/
+        right: 0;
+    }

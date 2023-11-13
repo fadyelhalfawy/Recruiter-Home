@@ -1,4 +1,12 @@
 .container {
+    width: 100%; /* Adjust the container width for mobile screens */
+}
+
+.parg h2 {
+    font-size: 30px; /* Adjust font size for h2 on mobile screens */
+}
+
+/* .container {
     margin: auto;
     width: 70%;
 }
@@ -11,17 +19,12 @@
     position: relative;
 }
 
-/* 4 Images under texts */
 .image {
-    /* width: 400px;
-    height: 400px; */
     position: relative;
     z-index: 1;
 }
 
 .parg {
-    /* width: 500px;
-    height: 400px; */
     position: relative;
     z-index: 2;
     text-align: left;
@@ -39,9 +42,6 @@
 
 .right-person-parg {
     background-color: aqua;
-    /* width: 400px;
-    height: 400px; */
-    /* bottom: 400px; */
     left: 350px;
     padding-left: 2rem;
     padding-top: 3rem;
@@ -89,4 +89,4 @@
 
 .content {
     padding-left: 70px;
-}
+} */
